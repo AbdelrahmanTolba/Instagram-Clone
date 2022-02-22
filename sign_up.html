@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sign_up.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+    
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">  -->
+    
+    <link rel="shortcut icon" href="images/instgram.png" type="image/x-icon">
+    
+    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+ 
+
+
+
+    <title>Instagram</title>
+</head>
+<body>
+    <main>
+        <div class="page">
+            <div class="header">
+                <div class="heading"></div>
+                <p>Sign up to see photos and videos from your friends.</p>
+              <button><i class="bg-primary  fab fa-facebook-square"></i> Log in with Facebook</button>
+              <div>
+                <hr>
+                <p>OR</p>
+                <hr>
+              </div>
+            </div>
+            <div class="container1">
+              <form action="Home.html" method="POST" >
+                <!-- @csrf  -->
+                <div style="width: 100%; ">
+                  <input type="text"id="name" name="name"   required autocomplete="name" autofocus placeholder="Full Name">
+                  <!-- @error('name')
+                  <span class="invalid-feedback" role="alert">
+                      <strong>{{ $message }}</strong>
+                  </span>
+              @enderror -->
+                </div>
+                <div style="width: 100%; ">
+                  <input id="email" type="email"  name="email"  required autocomplete="email"  placeholder="Email">
+
+                  <!-- @error('email')
+                      <span class="invalid-feedback" role="alert">
+                          <strong>{{ $message }}</strong>
+                      </span>
+                  @enderror -->
+              </div>
+                
+
+
+                <div style="width: 100%; ">
+                  <input id="username" type="text" placeholder="Username"  name="username" required autocomplete="nausernameme" autofocus>
+
+                  <!-- @error('name')
+                      <span class="invalid-feedback" role="alert">
+                          <strong>{{ $message }}</strong>
+                      </span>
+                  @enderror -->
+              </div>
+                <div style="width: 100%; ">
+                  <input id="password" type="password" placeholder="Password"  name="password" required autocomplete="new-password">
+
+                  <!-- @error('password')
+                      <span class="invalid-feedback" role="alert">
+                          <strong>{{ $message }}</strong>
+                      </span>
+                  @enderror -->
+              </div>
+
+                <button type="submit" >Sign up</button>
+              </form>
+              
+              <ul>
+                <li>By signing up, you agree to our</li>
+                <li><a href="https://help.instagram.com/581066165581870" target="_blank">Terms</a></li>
+                <li><a href="https://help.instagram.com/519522125107875" target="_blank">Data Policy</a></li>
+                <li>and</li>
+                <li><a href="https://help.instagram.com/1896641480634370?ref=ig" target="_blank">Cookies Policy</a> .</li>
+             </ul>
+            </div>
+        </div>
+        <div class="option">
+           <p>Have an account? <a href="sign_in.html">Sign in</a></p>
+        </div>
+        <div class="otherapps">
+          <p>Get the app.</p>
+          <button type="button"><i class="text-light bg-black  fas fa-sign-in-alt"></i> App Store</button>
+          <button type="button"><i class="text-light bg-black  fab fa-google-play"></i> Google Play</button>
+        </div>
+        <div class="footer">
+          <ul>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">HELP</a></li>
+            <li><a href="">PRESS</a></li>
+            <li><a href="">API</a></li>
+            <li><a href="">JOBS</a></li>
+            <li><a href="">PRIVACY</a></li>
+            <li><a href="">TEMS</a></li>
+            <li><a href="">LOCATIONS</a></li>
+            <li><a href="">TOP ACCOUNTS</a></li>
+            <li><a href="">HASHTAGS</a></li>
+            <li><a href="">LANGUAGE</a></li>
+          </ul>
+          <p>© 2021 Instagram</p>
+        </div>
+      </main>
+
+<script src="js/all.min.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+
+
+</body>
+</html>
